@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_242" data-name="Group 242" transform="translate(-298 -610)">
+    <rect id="Rectangle_1491" data-name="Rectangle 1491" class="cls-1" width="35" height="34" transform="translate(298 610)"/>
+    <path id="Union_4" data-name="Union 4" class="cls-2" d="M0,13.5A1.5,1.5,0,1,1,1.5,15,1.5,1.5,0,0,1,0,13.5Zm0-6A1.5,1.5,0,1,1,1.5,9,1.5,1.5,0,0,1,0,7.5Zm0-6A1.5,1.5,0,1,1,1.5,3,1.5,1.5,0,0,1,0,1.5Z" transform="matrix(0.017, 1, -1, 0.017, 323.473, 624.87)"/>
+  </g>
+</svg>

@@ -1,0 +1,1741 @@
+body {
+    margin: 0;
+    background-color: #C9D0D7;
+    font-family: "arial";
+
+
+}
+
+
+/****** HEADER*********/
+
+.nav {
+    text-align: center;
+    height: 0px;
+    line-height: 70px;
+    background-color: #D95B4D;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+
+}
+
+.nav1 {
+    border-bottom: 1px solid #D95B4D;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #D95B4D;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+
+
+}
+
+
+.menu {
+    background-color: #D95B4D;
+    padding: 0;
+    margin: 0;
+    height: 50em;
+    position: absolute;
+    margin-top: 1em;
+    z-index: 1;
+
+
+
+}
+
+.logud {
+    margin-top: 9.3em;
+    width: 24em;
+    background-color: #263247;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    line-height: 70px;
+    cursor: pointer;
+
+
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+label {
+    margin-left: 12em;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    padding: 0;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+
+
+
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 2px solid #D95B4D;
+        margin: 0;
+
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+/***********BURGER MENU SLUT**************/
+
+/****** SØGE MASKINE I HEADER*********/
+
+input[type=text2] {
+    width: 0px;
+    font-size: 16px;
+    background-color: #D95B4D;
+    background-image: url('search.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    padding: 5px 16px 8px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 2em;
+    position: absolute;
+}
+
+input[type=text2]:focus {
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+.person_ikon {
+    width: 6em;
+    height: 6em;
+
+
+
+    /**background-image: url(Group%20243.svg);
+    background-repeat: no-repeat;
+    margin-left: 7em;*/
+
+}
+
+input[type=submit] {
+    border: none;
+    padding: 0;
+
+
+
+}
+
+.kealogo {
+    width: 6em;
+    height: 2.em;
+    margin-top: em;
+    margin-left: 10em;
+    position: absolute;
+
+}
+
+/******SØGE BOKS I KONTAKTER ********/
+
+
+.soegboks {
+    margin-left: 4em;
+    margin-top: 2em;
+    width: 25em;
+    padding: 1em;
+}
+
+.tekst {
+    margin-left: 1em;
+    margin-top: 3em;
+    text-align: left;
+
+}
+
+#sectionwrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 2em;
+
+
+}
+
+.person {
+    background-color: #FFFFFF;
+    width: 5.8em;
+    height: 5.8em;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+}
+
+.ikon {
+    width: 3.8em;
+    margin-left: 1em;
+}
+
+.kontakt_navn {
+    font-size: 0.9em;
+    margin-top: -1em;
+    margin-left: 1.2em;
+    background-color: white;
+    color: #263247;
+}
+
+
+
+/***** CHAT SAMTALE - CHAT1.HTML ***********/
+
+.nav2 {
+    text-align: center;
+    height: 100px;
+    line-height: 70px;
+    position: absolute;
+    top: 10px;
+
+
+}
+
+.person_ikon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 140px;
+}
+
+#kasse1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#kasse2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#kasse3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.chat_logo {
+    width: 4em;
+    height: 4.5em;
+    margin-top: 1.8em
+}
+
+.besked1 {
+    background-color: #263247;
+    color: white;
+    height: 4em;
+    width: 15em;
+    margin-left: 6em;
+    margin-top: 2em;
+    text-align: left;
+
+}
+
+
+
+.besked2 {
+    background-color: white;
+    color: #263247;
+    height: 4em;
+    width: 13em;
+    margin-right: 9em;
+    margin-top: 2em;
+    text-align: left;
+
+}
+
+.besked3 {
+    background-color: #263247;
+    color: white;
+    height: 4em;
+    width: 13em;
+    margin-left: 6em;
+    margin-top: 2em;
+    text-align: left;
+
+}
+
+
+.set_besked {
+    margin-left: 19.55em;
+    color: #263247;
+    font-size: 0.8em;
+
+}
+
+/******* SKRIVE BOKS I CHAT FUNKTION *******/
+
+
+#bundboks {
+    background-color: #263247;
+    height: 6em;
+    margin-top: 11em;
+    display: flex;
+
+}
+
+.skriveboks {
+    background-color: white;
+    position: absolute;
+    height: 3.5em;
+    width: 20em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+
+
+}
+
+.skriv_noget {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    height: 3.5em;
+    width: 26em;
+
+}
+
+
+input[type=text] {
+    padding: 0.9em;
+}
+
+input[type=text],
+    {
+    border: 1px solid black;
+
+}
+
+.tryk {
+    width: 3em;
+    margin-top: 1.5em;
+    margin-left: 0.7em;
+
+
+}
+
+
+/************SKEMA****************/
+
+h2 {
+    font-weight: 1;
+    font-size: 1.5em;
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+    color: #263247;
+}
+
+/*
+.nav {
+    text-align: center;
+    height: 100px;
+    line-height: 70px;
+    background-color: #D95B4D;
+}
+*/
+
+.kealogo {
+    width: 5em;
+    margin-top: 2em;
+
+}
+
+.skemaboks {
+    text-align: center;
+    margin: -0.8em 1em 1em 1em;
+    padding: 0.05em;
+
+    height: 70px;
+
+    line-height: 70px;
+    background-color: #263247;
+    color: white;
+}
+
+#generel_oversigt {
+    margin: 0.1em;
+    padding: 0em 0.3em 0.3em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    /*    border: 0em 0em 0.1em solid black;*/
+}
+
+
+#dagsoversigt {
+    margin: 0.1em 0.1em 1em;
+    /*    padding: 0.5em;*/
+    display: flex;
+    justify-content: space-between;
+    border: 0.1em solid grey;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+#dagsoversigt p {
+    padding: 0.5em;
+}
+
+.man {
+    background-color: #263247;
+}
+
+.man p {
+    color: white;
+}
+
+.boks1 {
+    line-height: 70px;
+    background-color: #263247;
+    margin: 0.3em 1em 0.3em 1em;
+    padding: 0.8em 0.3em 0.5em
+}
+
+
+.boks4 {
+    line-height: 70px;
+    background-color: #4F596B;
+    margin: 0.3em 1em 0.3em 1em;
+    padding: 0.8em 0.3em 0.5em
+}
+
+.boks5 {
+    line-height: 70px;
+    background-color: #97A0AB;
+    margin: 0.3em 1em 0.3em 1em;
+    padding: 0.8em 0.3em 0.5em
+}
+
+.boks1 p {
+    color: white;
+    line-height: normal;
+    text-align: left;
+}
+
+.boks4 p {
+    color: white;
+    line-height: normal;
+    text-align: left;
+}
+
+.boks5 p {
+    color: white;
+    line-height: normal;
+    text-align: left;
+}
+
+.smaat {
+    margin: 0 0 1.7em 0em;
+    font-size: 0.7em;
+}
+
+.detaljer {
+    margin: 0.6em 0 0 0em;
+}
+
+.fag {
+    font-size: 1.5em;
+}
+
+
+#skema_oversigt {
+    justify-content: space-between;
+}
+
+.pil_venstre {
+    background-image: url(img/Chevron.svg);
+    width: 0.6em;
+    background-repeat: no-repeat;
+    margin: 0.8em 0em 0em 0.5em;
+}
+
+.pil_hojre {
+    background-image: url(img/Chevron1.svg);
+    width: 0.7em;
+    background-repeat: no-repeat;
+    margin: 0.8em 0.5em 0em 0em;
+}
+
+
+
+
+/*************AFLEVERINGER***************/
+
+
+
+
+
+/* BOKSE MED INDHOLD*/
+
+#afleveringer {
+    background-color: #263247;
+    padding: 0.05em;
+    margin: -0.6em 1em 1em 1em;
+    color: white;
+    font-size: 1.5em;
+    height: 2.8em;
+    width: 12.6em;
+
+}
+
+.overskrift_afleveringer {
+    position: absolute;
+    left: 5.4em;
+    top: 3.5em;
+}
+
+p {
+    font-family: 'arial';
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#tema1 p {
+    text-align: left;
+    color: #c9d0d7;
+    font-family: 'arial';
+}
+
+
+#tema1 {
+    background-color: #263247;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    margin: 1em 4.2em 0 2.6em;
+}
+
+#tema2 p {
+    text-align: left;
+    color: #c9d0d7;
+    font-family: 'arial';
+}
+
+
+#tema2 {
+    background-color: #263247;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    margin: 1em 4.2em 0 2.6em;
+}
+
+#tema3 p {
+    text-align: left;
+    color: #c9d0d7;
+    font-family: 'arial';
+}
+
+
+#tema3 {
+    background-color: #263247;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    margin: 1em 4.2em 0 2.6em;
+}
+
+#tema4 p {
+    text-align: left;
+    color: #c9d0d7;
+    font-family: 'arial';
+}
+
+
+#tema4 {
+    background-color: #263247;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    margin: 1em 4.2em 0 2.6em;
+    display: none;
+}
+
+/* SØG KNAP OG MENU KNAP SAT IND */
+
+/*
+#search {
+    background-image: url(billeder/search.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    top: 2.3em;
+    left: 22em;
+
+}
+
+
+
+#menuknap {
+    background-image: url(billeder/_____.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 2em;
+    height: 4em;
+    top: 0.7em;
+    left: 1.5em;
+
+}
+*/
+
+/* ANIMATION/PANEL DER SKAL KOMME OP NÅR MAN TRYKKER PÅ TEMA 04*/
+
+.panel {
+    margin: -4.5em 2.5em 0 2.5em;
+    position: absolute;
+    top: 28em;
+    display: none;
+
+
+}
+
+
+.dato1 {
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    background-color: #4E596B;
+    color: white;
+    margin: 0.1em 0 1em 0;
+
+}
+
+#afl1 {
+    width: 10.5em;
+    height: 2em;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+
+}
+
+
+#fluebenbillede1 {
+    background-image: url(billeder/flueben.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    top: 0.4em;
+    left: 15em;
+
+}
+
+#fluebenbillede2 {
+    background-image: url(billeder/rodkryds.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    top: 3.49em;
+    left: 15em;
+
+}
+
+#fluebenbillede3 {
+    background-image: url(billeder/prikprikprik.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    top: 6.59em;
+    left: 15em;
+
+}
+
+#fluebenbillede4 {
+    background-image: url(billeder/flueben.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    top: 9.6em;
+    left: 15em;
+
+}
+
+.dato2 {
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    background-color: #4E596B;
+    color: white;
+    margin: 0.1em 0 1em 0;
+}
+
+#afl2 {
+    position: absolute;
+    width: 10.5em;
+    height: 2em;
+    left: 6.3em;
+    top: 3.2em;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.dato3 {
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    background-color: #4E596B;
+    color: white;
+    margin: 0.1em 0 1em 0;
+}
+
+#afl3 {
+    position: absolute;
+    top: 6.3em;
+    left: 6.3em;
+    width: 10.5em;
+    height: 2em;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+}
+
+.dato4 {
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    background-color: #4E596B;
+    color: white;
+    margin: 0.1em 0 1em 0;
+}
+
+#afl4 {
+    width: 10.5em;
+    height: 2em;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+}
+
+
+.panel p {
+    margin: 0.5em;
+}
+
+
+.dato1 p {
+    color: #c9d0d7;
+}
+
+.dato2 p {
+    color: #c9d0d7;
+}
+
+.dato3 p {
+    color: #c9d0d7;
+}
+
+.dato4 p {
+    color: #c9d0d7;
+}
+
+#afl1 p {
+    text-align: left;
+}
+
+#afl2 p {
+    text-align: left;
+    position: absolute;
+    left: -0.7em;
+
+}
+
+#afl3 p {
+    text-align: left;
+    position: absolute;
+    left: -0.7em;
+}
+
+#afl4 p {
+    text-align: left;
+}
+
+
+/* STYLE PÅ KNAPPEN */
+
+.accordion {
+    background-color: #263247;
+    color: #c9d0d7;
+    cursor: pointer;
+    padding: 1.2em;
+    ;
+    margin: 1em;
+    width: 26.2em;
+    height: 3.6em;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: absolute;
+    left: 2em;
+}
+
+
+.active,
+.accordion:hover {
+    background-color: #4E596B;
+}
+
+.accordion:after {
+    content: '+';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1.3em;
+    color: #c9d0d7;
+    float: right;
+    margin-left: 0.5em;
+
+
+
+}
+
+.active:after {
+    content: "−";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+#plus {
+    background-image: url(billeder1/plusplus1.png);
+    position: absolute;
+    background-size: 100%;
+    width: 0.5em;
+    height: 0.5em;
+    background-repeat: no-repeat;
+    top: 10.2em;
+    left: 18.8em;
+}
+
+
+#plus2 {
+    background-image: url(billeder1/plusplus1.png);
+    position: absolute;
+    background-size: 100%;
+    width: 0.5em;
+    height: 0.5em;
+    background-repeat: no-repeat;
+    top: 16.5em;
+    left: 18.8em;
+}
+
+
+#plus3 {
+    background-image: url(billeder1/plusplus1.png);
+    position: absolute;
+    background-size: 100%;
+    width: 0.5em;
+    height: 0.5em;
+    background-repeat: no-repeat;
+    top: 13.3em;
+    left: 18.8em;
+}
+
+.overskrift_afleveringer {
+    font-family: 'arial';
+    font-size: 0.9em;
+    text-align: center;
+    color: white;
+
+}
+
+p {
+    font-family: 'arial';
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+/********************* Afleveringer NR. 2 HtML OLIVIA******************/
+/*
+
+.nav2 {
+    text-align: center;
+    height: 100px;
+    line-height: 70px;
+    background-color: #D95B4D;
+
+}
+*/
+
+.back2 {
+
+    background-size: 100%;
+    top: 8.5em;
+    left: 0.4em;
+    width: 1em;
+    height: 1em;
+    margin-top: 2.4em;
+    margin-right: 30em;
+
+
+}
+
+.kealogo2 {
+    width: 5em;
+    margin-top: 2.5em;
+
+}
+
+
+
+#afleveringer2 {
+    background-color: #4D596A;
+    height: 4em;
+    color: white;
+
+
+}
+
+.afleveringer2 p {
+    font-family: 'arial';
+    font-size: 1em;
+
+
+
+
+}
+
+#opgavetekst {
+    position: absolute;
+    top: 7.6em;
+    left: 2em;
+    color: #C9D0D7;
+    margin-top: -0.3em;
+}
+
+/****GRAFEN*****************/
+
+#graf2 {
+    background-color: #FFFFFF;
+    padding: 0.1em;
+    color: #4E596B;
+    font-size: 1em;
+    margin: 1em 2.5em 0 2.6em;
+    height: 4em;
+}
+
+.cirkel2 {
+    width: 3em;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+    margin-top: 1.em;
+}
+
+.studerende {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin-top: 1.4em;
+
+}
+
+/****AFLEVERET*****************/
+#afleveret2 {
+    background-color: #98D058;
+    padding: 0.1em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+    height: 3em;
+
+}
+
+
+/***IKKE GODKENDT*****************/
+#ikke_godkendt2 {
+    background-color: #FFFFFF;
+    padding: 0.1em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+    height: 3em;
+
+
+}
+
+#ikke_godkendt2 p {
+
+    margin-right: 14em;
+
+
+
+}
+
+.groenboks_tekst {
+    margin-top: 1em;
+}
+
+.kryds2 {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    left: 15.5em;
+    top: 0.5em;
+
+
+}
+
+#ikke_afleveret_tekst {
+    position: absolute;
+    top: 20em;
+    left: 4em;
+
+}
+
+/*****OPGAVEBESKRIVELSE***************/
+
+#opgavebeskrivelse2 {
+    height: 3em;
+    margin: 1em 2.5em 0 2.6em;
+    background-color: #FFFFFF;
+
+
+
+
+}
+
+#opgavebeskrivelse2 p {
+    position: absolute;
+    left: 4em;
+    margin-top: 1.2em;
+}
+
+
+
+/*****FEEDBACK***************/
+
+#feedback2 {
+    background-color: #97A0AB;
+    padding: 1em;
+    height: 10.5em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+
+
+}
+
+#feedback2 p {
+    text-align: left;
+    position: absolute;
+    width: 18em;
+    top: 32em;
+
+}
+
+.bubble2 {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.1em;
+    left: 15em;
+}
+
+
+
+/********************* Afleveringer NR. 3 HtML OLIVIA******************/
+
+.nav3 {
+    text-align: center;
+    height: 100px;
+    line-height: 70px;
+    background-color: #D95B4D;
+
+}
+
+.back3 {
+    background-size: 100%;
+    top: 8.5em;
+    left: 0.4em;
+    width: 1em;
+    height: 1em;
+    margin-top: 2em;
+    margin-left: em;
+
+}
+
+.kealogo3 {
+    width: 5em;
+    margin-top: 2.5em;
+
+}
+
+
+
+#afleveringer3 {
+    background-color: #4D596A;
+    height: 4em;
+    color: white;
+
+
+}
+
+.afleveringer_tekst {
+    top: 9.5em;
+    left: 1.5em;
+    color: #C9D0D7;
+    margin-top: -2em;
+    margin-right: 17em;
+
+}
+
+/****GRAFEN*****************/
+
+#graf3 {
+
+    background-color: #FFFFFF;
+    padding: 0.1em;
+    color: #4E596B;
+    font-size: 1em;
+    margin: 1.5em 2.5em 0 2.6em;
+    height: 4em;
+
+}
+
+.cirkel3 {
+    width: 3em;
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+
+}
+
+#graf3 p {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+/****AFLEVERET*****************/
+#ikke_afleveret {
+    background-color: #E85858;
+    padding: 0.1em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+    height: 3em;
+
+}
+
+.roed_boks_tekst {
+    margin-top: 1em;
+}
+
+
+/***IKKE GODKENDT*****************/
+#ikke_bedomt {
+    background-color: #FFFFFF;
+    padding: 0.1em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+    height: 3em;
+}
+
+#ikke_bedomt p {
+    margin-right: 14em;
+    margin-top: 1em;
+
+
+}
+
+.prik {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    left: 15.5em;
+    bottom: 2.4em;
+    margin-top: 1em;
+
+}
+
+/*****OPGAVEBESKRIVELSE***************/
+
+#opgavebeskrivelse3 {
+    background-color: #FFFFFF;
+    padding: 0.1em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+    height: 3em;
+}
+
+#opgavebeskrivelse3 p {
+    position: absolute;
+    left: 3.3em;
+    margin-top: 1em;
+
+}
+
+
+/*****FEEDBACK***************/
+
+#feedback3 {
+    background-color: #97A0AB;
+    padding: 1em;
+    height: 10.5em;
+    color: #263247;
+    margin: 1em 2.5em 0 2.6em;
+}
+
+#feedback3 p {
+    text-align: left;
+    position: absolute;
+    width: 18em;
+    top: 31em;
+}
+
+.bubble3 {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    bottom: 0.1em;
+    left: 15em;
+}
+
+
+
+
+
+
+/**************** LOG IND ******************/
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 668px;
+    margin: 0 auto;
+    background-color: #C9D0D7;
+}
+
+#login_billede {
+    background-image: url(/login/login_billede.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 45vh;
+}
+
+.loginform {
+    grid-row-start: 1.5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 381px;
+}
+
+.formgroup {
+    display: grid;
+    grid-template-columns: 2fr 260px;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+
+#uni_login {
+    background-image: url(/login/uni.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 59px;
+}
+
+
+.ekstra {
+    grid-row-start: 1.5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: flex;
+    font-family: arial;
+    font-size: 0.85em;
+    margin-top: -5em
+}
+
+#changelanguage {
+    border-left: 2px solid #263247;
+    height: 1em;
+}
+
+a {
+    color: #263247;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+
+a {
+    color: #263247;
+    text-decoration: none;
+}
+
+/*Inputs*/
+label,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {}
+
+input[type=text] {
+    background-image: url(/login/brugernavn.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+}
+
+input[type=password] {
+    background-image: url(/login/password.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    height: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    background-color: #A3ACB6;
+    border: 2px solid #A3ACB6;
+    color: white;
+
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: 3px solid #263247;
+    outline: -webkit-focus-ring-color auto 0;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #263247;
+    color: white;
+    transition: background-color 1s, color 1s;
+    height: 30px;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #3e4c65;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+
+/************ NAV DIANA
+
+.menu1 {
+    text-align: center;
+    background-color: #D95B4D;
+    max-width: 668px;
+    display: block;
+}
+
+.kealogo {
+    position: absolute;
+    width: 12em;
+    margin-top: 4em;
+    left: 150px;
+
+}
+
+**********/
+
+/******#luk_knap {
+    background-image: url(/nav_funktion/luk_knap.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 440px;*****/
+
+}
+
+#logud {
+    background-color: #263247;
+    position: absolute;
+    top: 841px;
+    width: 500px;
+    height: 130px;
+}
+
+h1 {
+    position: absolute;
+    color: #C9D0D7;
+    font-family: arial;
+    font-size: 1em;
+    top: 50px;
+    left: 230px;
+}
+
+.nav_funktion {
+    position: relative;
+    display: flex;
+    color: white;
+    font-family: arial;
+    font-size: 1em;
+    margin: 10px;
+}
+
+#nyheder {
+    top: 230px;
+    left: 224px;
+}
+
+.nyheder_billede {
+    position: relative;
+    background-image: url(/nav_funktion/nyheder.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    left: -110px;
+    top: -16px;
+}
+
+
+#skema {
+    top: 240px;
+    left: 225px;
+}
+
+.skema_billede {
+    position: relative;
+    background-image: url(/nav_funktion/skema.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    left: -85px;
+    top: -2px;
+}
+
+#materialer {
+    top: 260px;
+    left: 220px;
+}
+
+.materialer_billede {
+    position: relative;
+    background-image: url(/nav_funktion/materialer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    left: -105px;
+    top: -2px;
+}
+
+
+#afleveringer {
+    display: flex;
+    top: 280px;
+    left: 215px;
+}
+
+.aflevering_billede {
+    position: relative;
+    background-image: url(/nav_funktion/afleveringer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    left: -120px;
+    top: -2px;
+}
+
+#chat {
+    top: 290px;
+    left: 230px;
+}
+
+.chat_billede {
+    position: relative;
+    background-image: url(/nav_funktion/chat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    left: -70px;
+    top: -2px;
+}
+
+#indstillinger {
+    top: 300px;
+    left: 220px;
+}
+
+.indstillinger_billede {
+    position: relative;
+    background-image: url(/nav_funktion/indstillinger.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 30px;
+    left: -113px;
+    top: -02px;
+}
+
+
+/***************FORSIDE*************/
+
+
+/*
+
+.nav {
+    text-align: center;
+    height: 80px;
+    line-height: 70px;
+    background-color: #D95B4D;
+
+}
+*/
+
+.kealogo {
+    width: 4em;
+    margin-top: 2em;
+
+}
+
+
+.tema {
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #C9D0D7;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #263247;
+
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    line-height: 0.9;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.afl {
+    margin-top: 0.7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #C9D0D7;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #97A0AB;
+
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    line-height: 0.9;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.news1_top {
+    margin-top: 0.7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: #263247;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #263247;
+
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+
+}
+
+.news1_tekst {
+    color: white;
+    text-align: left;
+
+
+}
+
+
+.news2_tekst {
+    text-align: left;
+    color: white;
+
+
+}
+
+.news3_tekst {
+
+    text-align: left;
+    color: white;
+    margin-top: 1em;
+}
+
+
+
+.news1_bottom {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.8em;
+    padding-top: 0.5em;
+    background-color: #4E596B;
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.news2_top {
+    margin-top: 0.7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: #263247;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #263247;
+
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+
+}
+
+.news2_bottom {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.8em;
+    padding-top: 0.5em;
+    background-color: #4E596B;
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.news3_top {
+    margin-top: 0.7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: #263247;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #263247;
+
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.news3_bottom {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.8em;
+    padding-top: 0.5em;
+    background-color: #4E596B;
+
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}

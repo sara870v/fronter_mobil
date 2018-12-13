@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afleveringer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+
+        <div class="nav1">
+
+            <div class="nav">
+                <!--<label class="overskrift">KEA</label>-->
+                <img src="rigtiglogo.png" alt="kea logo" class="kealogo"> </div>
+
+
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <a href="forside.html">Nyheder</a>
+                <a href="skema.html">Skema</a>
+                <a href="#">Materialer</a>
+                <a href="afleveringer.html">Afleveringer</a>
+                <a href="chat.html">Chat</a>
+                <a href="#">Indstillinger</a>
+
+                <div class="logud">
+                    <a href="logind.html">Log ud</a>
+
+                </div>
+
+            </div>
+
+<!--
+                <form>
+                    <input type="text2" name="search">
+                </form>
+-->
+
+
+
+        </div>
+
+
+
+    </header>
+
+
+    <!--    AFLEVERINGS OVERSKRIFT-->
+    <div id="afleveringer">
+        <p class="overskrift_afleveringer">Afleveringer</p>
+    </div>
+    <!--DE FORSKELLIGE TEMAER-->
+    <div id="tema1">
+        <p>TEMA 01: Grundlæggende Webdesign</p>
+    </div>
+    <div id="tema2">
+        <p>TEMA 02: Grundlæggende Indhold</p>
+    </div>
+    <div id="tema3">
+        <p>TEMA 03: Grundlæggende Animation</p>
+    </div>
+
+
+    <button class="accordion">TEMA 04: Grundlæggende UX</button>
+    <!--
+<div id="tema4">
+    <p>TEMA 04: Grundlæggende UX</p>
+
+</div>
+-->
+
+    <!--    PANEL -->
+    <div class="panel">
+
+        <div id="1raekke">
+            <div class="dato1">
+                <p> 9/11/18</p>
+            </div>
+
+            <div id="afl1">
+                <p> 04.01.01</p>
+            </div>
+            <div id="fluebenbillede1">
+
+            </div>
+        </div>
+
+        <div id="2raekke">
+
+            <div class="dato2">
+                <p> 28/11/18</p>
+            </div>
+
+            <div id="afl2">
+                <p><a href="afleveret.html">04.01.02</a></p>
+                <!--                    <p> 04.01.02</p>-->
+            </div>
+            <div id="fluebenbillede2">
+
+            </div>
+
+        </div>
+
+        <div id="3raekke">
+            <div class="dato3">
+                <p> 2/12/18</p>
+            </div>
+
+            <div id="afl3">
+                <p><a href="ikkeafleveret.html">04.01.03</a></p>
+                <!--                <p> 04.01.03</p>-->
+            </div>
+            <div id="fluebenbillede3">
+
+            </div>
+        </div>
+
+        <div id="4raekke">
+            <div class="dato4">
+                <p> 17/12/18</p>
+            </div>
+
+            <div id="afl4">
+                <p> 04.01.04</p>
+            </div>
+            <div id="fluebenbillede4">
+
+            </div>
+        </div>
+
+
+    </div> <!-- her slutter panel-->
+
+    <!--DE FORSKELLIGE IKONER SAT IND I DIVS-->
+    <!--
+    <div id="search">
+    </div>
+    <div id="menuknap">
+    </div>
+-->
+    <div id="plus"></div>
+    <div id="plus2"></div>
+    <div id="plus3"></div>
+
+
+
+    <!-- HER STARTER JS TIL AT FÅ MENU'EN TIL AT FLOATE NED   -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

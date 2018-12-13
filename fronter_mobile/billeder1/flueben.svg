@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #98d058;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_240" data-name="Group 240" transform="translate(-297 -428)">
+    <rect id="Rectangle_1488" data-name="Rectangle 1488" class="cls-1" width="35" height="34" transform="translate(297 428)"/>
+    <g id="Group_226" data-name="Group 226" transform="translate(306.5 437.601)">
+      <path id="Checkbox" class="cls-2" d="M6.9,12,1,6.1,2.4,4.7,6.9,9.1,15,1l1.4,1.4Z" transform="translate(-1 1)"/>
+      <rect id="Rectangle_556" data-name="Rectangle 556" class="cls-3" width="16" height="16"/>
+    </g>
+  </g>
+</svg>
